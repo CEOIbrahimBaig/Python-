@@ -2,22 +2,16 @@
 
 number= int (input("\t Please enter the number which you want to check \n"))
 
-i=2
 
-while(i<17):
-    if (number==0 or number==1 ):
-        print ("It is a prime number")
-        break
-    elif(number/i==0):
-        print("It is not a prime number ")
-        break
-
-    else :
-        print ("It is a prime number  ")
-        break
-
-    
-
-
-
-
+if number <= 1:
+    print("Not a prime number")
+else:
+    is_prime = True
+    for i in range(2, number):  # just check all numbers from 2 to number-1
+        if number % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print("It is a prime number")
+    else:
+        print("It is not a prime number")
