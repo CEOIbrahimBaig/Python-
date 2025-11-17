@@ -1,7 +1,9 @@
 def remove(l,word):
+    n=[]
     for item in list:
-        l.remove(word)
-    return list
+        if (item!=word):
+            n.append(item.strip(word))
+    return n
 
 
 
