@@ -17,7 +17,7 @@ m=type(l)
 print (t)
 print (f)
 print (g)   
-print  (m)
+print  ('M has data type ',m)
 
 
 # You can also convert the data type of data  if it is valid 

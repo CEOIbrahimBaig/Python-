@@ -4,7 +4,7 @@ a=1 # Dont need to declare int ,string
 
 b=2 #int data type 
 
-name="Harry " # String data type 
+name="Harry" # String data type 
 
 d=True # Boolean data type 
 
