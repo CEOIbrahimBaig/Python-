@@ -8,17 +8,20 @@
 #Can not contain duplicate keys 
 
 
+c="Ali_hassan"
+
+
 marks = {
     "Ibrahim":100,
-    "Hafsa":43,
-    "Ali":70,
+    43:'HAFSA',
+    c:70,
     0:"Harry"
 }
 # Same can be done by list but problem is it would prints slow and can't print using mapped data
-
+# Before colon key is present which is used to show the mapped value 
 
 print (marks,type(marks)) # Print data and data type 
 
-print (marks["Hafsa"])
+print (marks[43])
 
 print (marks)

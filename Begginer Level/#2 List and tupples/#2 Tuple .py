@@ -13,4 +13,3 @@ print (type(a))
 # List is a=[1,2,3]= Mutable 
 # Tuple is a=(1,2,3) = Immutable 
 
-

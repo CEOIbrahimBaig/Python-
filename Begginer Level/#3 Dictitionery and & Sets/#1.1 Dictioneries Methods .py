@@ -28,9 +28,9 @@ print (data)
 
 #5th Method .get() Return the key 
 
-print (data.get("Hafsa")) # Does  not give error if absent key is entered , print null
+print (data.get("HafSa")) # Does  not give error if absent key is entered , print null
 
-print (data["Hafsa"]) # Give error if ket is absent 
+print (data["Hafsa"]) # Give error if key is absent 
 
 
 #6th Method .len( ) To get length of dictionery 

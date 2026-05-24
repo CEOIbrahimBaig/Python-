@@ -28,6 +28,7 @@ s.remove ("Harry ")
 print (s)
 
 #4th Method  .pop() To remove a random element from the set 
+# An arbitary element is removed from the set  (Pseudo-random)
 
 s.pop()
 

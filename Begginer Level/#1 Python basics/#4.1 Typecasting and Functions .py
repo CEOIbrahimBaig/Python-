@@ -42,6 +42,6 @@ pp=str(22)
 
 abj=float(32)
 
-print (pp)
+print (type(pp))
 
 print (abj)

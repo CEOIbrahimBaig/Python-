@@ -11,5 +11,5 @@ data[0]=23
 
 print (data[0]) #  print 23  instead of Apple because list first index is changed to 23 in above given code
 
-print (data[0:4]) # print list data form 0 index to 4 
+print (data[0:4]) # print list data form 0 index to 3rd
 

@@ -8,7 +8,7 @@ print (name.startswith("Ali")) # Tell if string start with certain chars or not
 
 print (name.capitalize()) # It capitalize first word of string 
 
-index =name.find("hassan") # Will store value of index from where we can find the 
+index =name.find("hassan") # Will store value of index from where we can find the value
 
 print (index)
 
@@ -17,7 +17,7 @@ name=name.replace("Ali","hassan") #It WILL STORE THE UPDATED STRING INTO ORIGNAL
 print(name)
 
 text = "name=Ali Hassan"
-key, sep, value = text.partition("=")
+key, sep,value = text.partition(" ")
 
 print(key)    # name
 print(value)  # Ali Hassan
