@@ -1,3 +1,6 @@
+
+#All concepts covered with this code heheh :)
+
 a= int (input("Please enter your age \n"))
 
 if (a>=18):

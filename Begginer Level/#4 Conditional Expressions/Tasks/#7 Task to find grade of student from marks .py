@@ -1,7 +1,7 @@
 marks=int(input("\t Please enter your marks \n "))
 
 if (marks<=0):
-    print("Ustad kay sath panga hai koi jo itnay 0 numbers mil gay apko \n")
+    print("Ustad kay sath panga hai koi jo itnay ziada numbers mil gay apko \n")
 
 elif(marks>0 and marks<50):
     print("You got an F ")

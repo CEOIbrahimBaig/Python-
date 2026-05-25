@@ -2,7 +2,7 @@
 
 # Answer : I think that the dictionery will give error maybe I
 # Real Answer : No  error but because it is not mutable so the Value will be changed to latest value given by same name user 
-
+# Latest same key value will be used and the rest will be discarded 
 s={}
 
 name1=input("\tPlease enter your name\n ")
