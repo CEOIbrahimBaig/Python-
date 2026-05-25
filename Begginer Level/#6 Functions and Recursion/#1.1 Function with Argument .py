@@ -22,6 +22,8 @@ def sum(a,b):
     
     return a+b
 
-val=sum(1,2)
+c=int(input("Please enter the value you want  to add "))
+d=int(input("Enter the 2nd value you want to add in first one "))
+val=sum(c,d)
 
 print (val)
