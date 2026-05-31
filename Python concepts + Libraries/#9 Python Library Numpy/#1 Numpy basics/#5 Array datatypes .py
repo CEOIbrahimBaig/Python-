@@ -55,4 +55,40 @@ print(ab.dtype)
 
 
 
+arr2= np.array([1,2,3,4,5])
+
+print ("\n",arr2.dtype)
+
+arr3=np.array(['23','abj'])
+
+print ("\n",arr3.dtype)
+
+
 # We can also assign fixed datatype to any array 
+
+
+
+arr = np.array([1, 2, 3, 4], dtype='S')
+
+print(arr)
+print(arr.dtype)
+
+arr4bytesize=np.array([1,2,3,4],dtype="i4") #4 byte = 4  * 8 = 32 BIT 
+
+print ("\n",arr4bytesize.dtype)
+
+
+# To declare data-type use .dtype=  and for changing datatype after already made use .astype=
+
+# .astype() dont change array-data-type it only create new array with different data-type 
+
+new_arr=arr4bytesize.astype('S')
+
+print ("The data-type after conversion is ",new_arr.dtype)
+
+
+arr= np.array([1,2,3])
+
+new_arr=arr.astype('bool')
+
+print ("The data-type after conversion is ",new_arr.dtype," AND data is ",new_arr)
