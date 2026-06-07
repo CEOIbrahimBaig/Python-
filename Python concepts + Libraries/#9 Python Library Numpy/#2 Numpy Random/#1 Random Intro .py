@@ -84,6 +84,6 @@ print(x)
 x= random.choice([1,2,4,5,6],size=(3,2,2))
 print (x)
 
-
+print(x.dtype)
 
 
