@@ -1,0 +1,11 @@
+# Name : Gym Progress & Fitness Tracking 
+# Level : Medium
+# Type : Mini-project 
+
+
+Requirements 
+#1 Data is hardcoded in 1D Array 
+#2 Convert it into 2D Array with ( 6 weeks , 2 sessions per day  ) 
+#3 Weights can be of decimal so change data-type 
+#4 Let customer see changes if they add 5kg weight to thier set of work 
+#5 Help customer enter an amount and tell on which days did they lift that much 
