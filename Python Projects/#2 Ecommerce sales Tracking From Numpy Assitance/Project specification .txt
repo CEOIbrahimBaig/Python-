@@ -6,4 +6,5 @@
 Requirements 
 #1 Hardcode the sales data 
 #2 The user should be able to get the details of specific product sales on particular day 
+#3 Apply Matplot Graphs to help in analyzing data for Multiple dates & Products 
 

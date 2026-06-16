@@ -3,7 +3,7 @@
 
 
 import numpy as np 
-
+import matplotlib.pyplot as plt 
 # There are 3  Products and 7 days so shape of array is (3,7)
 
 arr=np.array([
@@ -15,12 +15,18 @@ arr=np.array([
     [9,22,11],   # Saturday sales 
     [382,33,1]    # Sunday sales 
 ])
+weeks=np.array(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"])
 
 
 weekends=int(input("Do You want to know sales of Weekends \n For Weekend Type 1 \n For Specific day Type 2\n"))
 
 if weekends==1: 
    print("The sales of Caps ,Bages and Shoes on weekends are \t ",arr[5:])
+   plt.plot(arr[5:,0],label="Caps",) # for caps a line =Blue 
+   plt.plot(arr[5:,1],label="Bags") # For bags a line = Orange 
+   plt.plot(arr[5:,2],color='hotpink',label="Shoes") # For Shoes a line = hotpink
+   plt.show()
+
 
 
 if weekends==2 :
@@ -52,6 +58,7 @@ if weekends==2 :
       column =2
 
     print("The sales are ",arr[row,column])
+    plt.plot()
 
 
 
