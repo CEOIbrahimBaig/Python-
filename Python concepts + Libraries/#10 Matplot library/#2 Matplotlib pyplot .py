@@ -9,3 +9,5 @@ plt.plot(xa,ya)
 
 
 plt.show()
+
+
