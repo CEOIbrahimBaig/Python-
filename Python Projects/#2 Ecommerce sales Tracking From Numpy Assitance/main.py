@@ -22,9 +22,12 @@ weekends=int(input("Do You want to know sales of Weekends \n For Weekend Type 1 
 
 if weekends==1: 
    print("The sales of Caps ,Bages and Shoes on weekends are \t ",arr[5:])
-   plt.plot(arr[5:,0],label="Caps",) # for caps a line =Blue 
-   plt.plot(arr[5:,1],label="Bags") # For bags a line = Orange 
-   plt.plot(arr[5:,2],color='hotpink',label="Shoes") # For Shoes a line = hotpink
+   plt.plot(arr[5:,0]) # for caps a line =Blue 
+   plt.plot(arr[5:,1]) # For bags a line = Orange 
+   plt.plot(arr[5:,2],color='hotpink') # For Shoes a line = hotpink
+   plt.xlabel("Days",size=20,fontname='Arial')
+   plt.ylabel('Sales',size=20)
+
    plt.show()
 
 
