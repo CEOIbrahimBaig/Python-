@@ -28,4 +28,3 @@ print(dataset)
 
 print ('\n',dataset.loc["Day 3"])
 
-
