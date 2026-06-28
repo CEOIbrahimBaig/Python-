@@ -26,5 +26,20 @@ whole_row=data.loc["1/1/2026"]
 print (whole_row)
 
 
+specific_cell=data[2,"Calories"]
 
-# learnt the  row ,column concepts . loc and min max mean median mode ok for nex day 
+
+
+# learnt the  row ,column concepts . loc and min max mean median mode ok for next day 
+
+max_calories=data["Calories"].max() # Fro max value in a column .
+
+min_calories=data["Calories"].min() # For Min value in a column .
+
+Average_calories=data["Calories"].mean() # For average of all the column 
+
+most_repeated_calories_consumption=data["Calories"].mode() # To get the most repeated value from the column 
+
+mid_calories_value=data["Calories"].median() # It sort all values and give value that come at mid 
+
+

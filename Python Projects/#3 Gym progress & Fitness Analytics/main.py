@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 # Phase #1 Data Loading & Exploration 
 
+data=pd.read_csv(r"C:\Python learning\Python Projects\#3 Gym progress & Fitness Analytics\Gym_dataset.csv")
 
 # Checking if data loaded corretly 
 '''print(data.head(5)) 
@@ -68,8 +69,5 @@ if input_by_user=="5":
     daily_calories=data["Calories"].values
     bench_press=data["Bench_Press"].values
     dates=data["Dates"].values
+
     
-
-
-  #  plt.subplot(2,2,2)
-  #  plt.scatter()
