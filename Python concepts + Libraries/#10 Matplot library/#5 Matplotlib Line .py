@@ -46,7 +46,7 @@ plt.plot(ypoints, linewidth = '20.5') # lw= or linewidth=
 plt.show()
 
 
-                               #Multiple Lines
+                                       #Multiple Lines
 '''You can plot as many lines as you like by simply adding more plt.plot() functions:'''
 
 

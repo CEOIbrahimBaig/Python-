@@ -51,7 +51,7 @@ plt.plot(ypoint,'o:g')  # Marker|line|color
 plt.show()    
 
 
-#plt.plot(data_point_x_axis,date_point_y_axis , Marker|Line|Color , markersize or
+#plt.plot(data_point_x_axis,data_point_y_axis , Marker|Line|Color , markersize or
 #  ms= ,markeredgecolor or mec=' ',markerfacecolor or mfc=' ')
 
 # Default datapoint = y 
