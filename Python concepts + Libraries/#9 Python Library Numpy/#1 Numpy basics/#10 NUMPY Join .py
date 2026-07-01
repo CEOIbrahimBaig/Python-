@@ -78,3 +78,10 @@ arr=np.dstack((arr1,arr2))
 print (arr)
 
 # Print vertical stack but with 3d array 
+
+
+
+print (arr1+arr2) #It will add them 
+print (arr1*arr2 ) # It  will multiple both the arrays 
+
+
