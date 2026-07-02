@@ -1,12 +1,19 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy import random 
+import seaborn as sns
 
 
                                       #  Normal Distribution 
 
+
+#It shows data that naturally clusters around a central average, 
+#where most things are average and extremes are rare.
+
+
 '''
 The Normal Distribution is one of the most important distributions.
+
 
 It is also called the Gaussian Distribution after the German mathematician Carl Friedrich Gauss.
 
@@ -25,5 +32,30 @@ size - The shape of the returned array.'''
 
 x=random.normal(size=(2,3))
 
+
+
 print(x)
+
+
+
+x=random.normal(size=(2,3),loc=1 ,scale=2)
+
+# loc means the peak (mean)
+# scale is how much you daviate from peak
+
+print (x) 
+
+
+
+
+
+                    # Visualisation of Normal Distribution
+
+
+
+sns.displot(random.normal(size=1000) ,  kind="kde")
+
+
+plt.show()
+
 
