@@ -48,3 +48,19 @@ new_arr=np.around([3.17,3.127],2) # It will not round it will just cut parts and
 
 print (new_arr)
 
+
+# Floor function round of the decimal to nearest lowest decimal 
+
+arr = np.floor([-3.1666, 3.6667]) # Gives -4, 3 
+
+print(arr)
+
+
+
+# Ceil function round of the decimal to nearest highest decimal 
+
+
+arr = np.ceil([-3.1666, 3.6667]) # Gives -3,4
+
+print(arr)
+
