@@ -1,5 +1,5 @@
 
-                      # Introduction 
+                      # Simple Linear Regression 
 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -16,7 +16,8 @@ print(diabetes.keys())
 
 
 diabetes_x=diabetes.data[:,np.newaxis,2] #[rows,columns]  The axis function increase dimension of Array
-
+# To train on all the features remove the above brackets 
+# Also you will not be able to draw plot if done for all features 
 print(diabetes_x)
 
 
