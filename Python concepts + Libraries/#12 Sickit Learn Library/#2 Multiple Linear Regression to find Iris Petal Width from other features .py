@@ -1,5 +1,5 @@
 
-                      # Simple Linear Regression 
+                      # Multiple Linear Regression 
 
 import numpy as np 
 import matplotlib.pyplot as plt 
