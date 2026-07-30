@@ -1,5 +1,4 @@
 
-```markdown
 # 🚀 Python Learning & Data Science Journey
 
 ## 📌 Overview
