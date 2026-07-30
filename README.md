@@ -13,40 +13,39 @@ Real-world AI projects 🚀
 
 The structure evolves as learning progresses, making this a living repository of skills and projects.
 
-🧠 Current Learning Structure
-🐍 Python Concepts & Basics
 
-Core Python programming fundamentals:
+📌 Folder Structure (Dynamic)
 
-Variables, Data Types
-Lists, Tuples, Sets, Dictionaries
-Conditional Statements
-Loops
-Functions & Recursion
-File Handling
-
-🔢 NumPy (Numerical Computing)
-
-Structured step-by-step practice:
-
-NumPy Basics
-Arrays (1D, 2D, 3D)
-Indexing & Slicing
-Array Datatypes
-Shape & Reshape
-Copy vs View
-Iteration (nditer, ndenumerate)
-Joining & Splitting Arrays
-Random Module
-Advanced NumPy Functions
-
-
-📊 Upcoming Sections (In Progress / Planned)
-
-Pandas (Data Handling & Analysis)
-Matplotlib / Seaborn (Visualization)
-Machine Learning (Scikit-learn)
-Real-world Projects (End-to-end datasets)
+Python learning/
+│
+├── 🛠️ Python concepts + Libraries/
+│   ├── 09 Python Library Numpy/
+│   │   ├── #1 Numpy basics/
+│   │   │   ├── #16 1D + 2D Functions.py
+│   │   │   └── #16 1D functions.py
+│   │   ├── #2 Numpy Random/
+│   │   └── #3 Numpy Unfunc/
+│   │
+│   ├── 10 Matplot library/
+│   │
+│   ├── 11 Pandas Library/
+│   │   └── Cleaning data with Panda/
+│   │
+│   └── 12 Scikit Learn Library/
+│       ├── Iris Dataset/
+│       ├── #1 Simple Linear Regression .py
+│       ├── #2 Multiple Linear Regression to find Iris P...
+│       └── #3 K Nearest Neighbours Classification .py
+│
+└── 🚀 Python Projects/
+    ├── #1 Basic Snake ,water ,papper Game/
+    ├── #2 Basic Ecommerce sales Tracking From N...
+    ├── #3 Gym progress & Fitness Analytics/
+    ├── #4 Model For predicting Alchol class/
+    └── #5 Abalone Gender Prediction using Classification/
+        ├── Abalone Gender prediction using Classification.py
+        ├── abalone.csv
+        └── abalone.names
 
 
 📂 Repository Philosophy
@@ -61,6 +60,7 @@ Concept learning
 Hands-on coding
 Small experiments
 Practice tasks
+
 🚀 Goal of This Repository
 
 By the end of this journey, this repo will evolve into:
@@ -73,23 +73,12 @@ A proof of consistency and skill growth
 🛠️ Tech Stack
 Python 🐍
 NumPy 🔢
-Pandas 📊 (coming soon)
-Matplotlib 📈 (coming soon)
-Scikit-learn 🤖 (future)
+Pandas 📊 
+Matplotlib 📈 
+Scikit-learn 🤖 (Learning)
 
 
 
-📌 Folder Structure (Dynamic)
-Python Learning/
-│
-├── Python concepts & Libraries/
-├── NumPy/
-│   ├── Basics
-│   ├── Advanced
-│   └── Practice
-├── Pandas (coming soon)
-├── Visualization (coming soon)
-└── Python Projects/
 
 
 
