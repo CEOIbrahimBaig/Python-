@@ -1,126 +1,129 @@
-🚀 Python Learning & Data Science Journey
 
+# 🚀 Python Learning & Data Science Journey
 
-📌 Overview
+## 📌 Overview
 
 This repository documents my complete Python learning journey, starting from fundamentals and progressing toward:
 
-Data Analysis 📊
-NumPy & Pandas mastery 🔢
-Data Visualization 📈
-Machine Learning 🤖
-Real-world AI projects 🚀
+* Data Analysis 📊
+* NumPy & Pandas mastery 🔢
+* Data Visualization 📈
+* Machine Learning 🤖
+* Real-world AI projects 🚀
 
 The structure evolves as learning progresses, making this a living repository of skills and projects.
 
-🧠 Current Learning Structure
-🐍 Python Concepts & Basics
+---
 
-Core Python programming fundamentals:
+## 📌 Folder Structure (Dynamic)
 
-Variables, Data Types
-Lists, Tuples, Sets, Dictionaries
-Conditional Statements
-Loops
-Functions & Recursion
-File Handling
+```text
+Python learning/
+│
+├── 🛠️ Python concepts + Libraries/
+│   ├── 09 Python Library Numpy/
+│   │   ├── #1 Numpy basics/
+│   │   │   ├── #16 1D + 2D Functions.py
+│   │   │   └── #16 1D functions.py
+│   │   ├── #2 Numpy Random/
+│   │   └── #3 Numpy Unfunc/
+│   │
+│   ├── 10 Matplot library/
+│   │
+│   ├── 11 Pandas Library/
+│   │   └── Cleaning data with Panda/
+│   │
+│   └── 12 Scikit Learn Library/
+│       ├── Iris Dataset/
+│       ├── #1 Simple Linear Regression .py
+│       ├── #2 Multiple Linear Regression to find Iris P...
+│       └── #3 K Nearest Neighbours Classification .py
+│
+└── 🚀 Python Projects/
+    ├── #1 Basic Snake ,water ,papper Game/
+    ├── #2 Basic Ecommerce sales Tracking From N...
+    ├── #3 Gym progress & Fitness Analytics/
+    ├── #4 Model For predicting Alchol class/
+    └── #5 Abalone Gender Prediction using Classification/
+        ├── Abalone Gender prediction using Classification.py
+        ├── abalone.csv
+        └── abalone.names
 
-🔢 NumPy (Numerical Computing)
+```
 
-Structured step-by-step practice:
+---
 
-NumPy Basics
-Arrays (1D, 2D, 3D)
-Indexing & Slicing
-Array Datatypes
-Shape & Reshape
-Copy vs View
-Iteration (nditer, ndenumerate)
-Joining & Splitting Arrays
-Random Module
-Advanced NumPy Functions
-
-
-📊 Upcoming Sections (In Progress / Planned)
-
-Pandas (Data Handling & Analysis)
-Matplotlib / Seaborn (Visualization)
-Machine Learning (Scikit-learn)
-Real-world Projects (End-to-end datasets)
-
-
-📂 Repository Philosophy
+## 📂 Repository Philosophy
 
 This repo is built with a progressive learning approach:
 
-Learn → Practice → Break → Fix → Build
+> **Learn → Practice → Break → Fix → Build**
 
 Each folder represents:
 
-Concept learning
-Hands-on coding
-Small experiments
-Practice tasks
-🚀 Goal of This Repository
+* Concept learning
+* Hands-on coding
+* Small experiments
+* Practice tasks
+
+---
+
+## 🚀 Goal of This Repository
 
 By the end of this journey, this repo will evolve into:
 
-A complete Data Science portfolio
-A collection of real-world AI projects
-A proof of consistency and skill growth
+* A complete Data Science portfolio
+* A collection of real-world AI projects
+* A proof of consistency and skill growth
 
+---
 
-🛠️ Tech Stack
-Python 🐍
-NumPy 🔢
-Pandas 📊 (coming soon)
-Matplotlib 📈 (coming soon)
-Scikit-learn 🤖 (future)
+## 🛠️ Tech Stack
 
+* **Python** 🐍
+* **NumPy** 🔢
+* **Pandas** 📊
+* **Matplotlib** 📈
+* **Scikit-learn** 🤖 *(In Progress)*
 
+---
 
-📌 Folder Structure (Dynamic)
-Python Learning/
-│
-├── Python concepts & Libraries/
-├── NumPy/
-│   ├── Basics
-│   ├── Advanced
-│   └── Practice
-├── Pandas (coming soon)
-├── Visualization (coming soon)
-└── Python Projects/
+## 💡 Learning Strategy
 
+* 3 topics per day (consistent pace)
+* Practice every concept with small code
+* Weekly revision
+* Build mini-projects after each library
 
+---
 
-💡 Learning Strategy
-3 topics per day (consistent pace)
-Practice every concept with small code
-Weekly revision
-Build mini-projects after each library
-
-
-
-🔥 Future Vision
+## 🔥 Future Vision
 
 This repository will grow into:
 
-AI/ML projects portfolio
-Freelance-ready skills
-Internship-ready GitHub profile
-Strong foundation for deep learning
+* AI/ML projects portfolio
+* Freelance-ready skills
+* Internship-ready GitHub profile
+* Strong foundation for deep learning
 
+---
 
+## ⭐ Tip
 
-⭐ Tip
+> *"Consistency beats speed. Small daily progress compounds into mastery."*
 
-“Consistency beats speed. Small daily progress compounds into mastery.”
+---
 
-👤 Author
+## 👤 Author
 
-Ibrahim Baig
-Python | Data Science | AI/ML Learning Path 🚀
+**Muhammad Ibrahim**
 
-📌 Important Note
+*Python | Data Science | AI/ML Learning Path* 🚀
 
-This repository structure is evolving continuously as new concepts and projects are added.
+---
+
+> 📌 **Important Note:** This repository structure is evolving continuously as new concepts and projects are added.
+
+```
+
+```
