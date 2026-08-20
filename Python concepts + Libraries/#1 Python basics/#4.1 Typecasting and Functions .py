@@ -24,7 +24,7 @@ print  ('M has data type ',m)
 
 bb= "31.2 "
 ll ="31"
-cc=float(bb)
+cc=float(ll)
 
 print (cc)
 
